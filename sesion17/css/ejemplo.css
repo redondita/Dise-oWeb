@@ -1,0 +1,21 @@
+#cont1{
+    background-color: cyan;
+    width: 10%;
+    height: 10%;
+    padding: 1%;
+
+}
+#c1b {
+   
+    background-color: black;
+    color: blanchedalmond;
+	border-radius:28px;	
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:5px;
+	text-decoration:none;
+
+}

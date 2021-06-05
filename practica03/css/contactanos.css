@@ -1,0 +1,340 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.contenedor {
+    flex: 1 0 auto;
+    display: flex;
+    background-color: rgb(9, 148, 106);
+    
+}
+
+.div input{
+    width: 110px;
+    margin-left: 30%;
+    background-color: black;
+    color: blanchedalmond;
+	border-radius:28px;	
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:5px;
+	text-decoration:none;
+
+}
+
+
+section {
+    margin: 0px 0px;
+    padding: 10px 30px;
+    flex: 0 1 80%;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+section h3 {
+    margin: 15px;
+}
+
+article {
+    margin: 15px 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px 20px;
+    background-color: white;
+    box-shadow: 6px 6px 9px 0px gray;
+    
+}
+
+article p {
+    margin: 10px 0px 0px 0px;
+}
+
+article span {
+    font-weight: bold;
+}
+
+aside {
+    border: 1px solid black;
+    margin:  60px 30px 20px 30px;
+    flex: 0 1 20%;
+    background-color: rgb(41, 172, 133);
+    width: 200px;
+    
+}
+
+
+aside h4 {
+    margin: 5px 15px;
+}
+
+aside ul {
+    list-style: none;
+    padding: 6px;
+    margin: 0px 40px;
+    
+}
+
+aside a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    
+}
+
+
+img {
+    margin: 20px;
+    width: 120px;
+    height: 150px;
+    display: flex;
+    padding: 10px 0px;
+    justify-content: space-around;
+    float: left;
+}
+
+header {
+    flex: 0 0 auto;
+    background-color: rgb(19, 104, 78);
+}
+
+.head {
+    display: flex;
+    align-items: center;
+}
+
+.head img {
+    margin: 0px;
+    width: 185px;
+    height: 185px;
+    padding: 0px; 
+}
+
+.Informaciongeneral {
+    margin: 0px 15px;
+}
+
+.Informaciongeneral h1{
+    margin: 5px 0px;
+    color: white;
+}
+
+.Informaciongeneral h2 {
+    margin: 5px 0px;
+    color: rgb(19, 15, 15);
+}
+
+nav {
+    background-color: black;
+    padding: 20px; 
+    
+}
+
+header ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px;
+    list-style: none;
+    flex-direction: column;
+}
+
+header a {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    border-radius: 6px;
+
+    
+    
+}
+
+header a:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+
+}
+
+#inicioSesion {
+    float: right;
+    margin: 20px 25px 0px 0px;
+}footer {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    background-color: black;
+    flex: 0 0 auto;
+}
+
+.foot {
+    display: flex;
+    width: 100%;
+    color: white;
+    padding: 10px 0px;
+    justify-content: space-around;
+    background-color: rgb(19, 104, 78);
+}
+
+.contactodelfooter {
+    flex: 5 1 auto;
+}
+.contactodelfooter lu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+}
+
+.contactodelfooter li {
+    margin: 0px 25px;
+}
+
+.redessociales {
+    display: flex;
+    flex-direction: column;
+    flex: 5 1 auto;
+}
+.Enlaces {
+    display: flex;
+    flex-direction: column;
+    flex: 5 1 auto;
+}
+.Menu {
+    display: flex;
+    flex-direction: column;
+    flex: 20 20 auto;
+}
+
+.div img{
+    height: 80;
+    width: 220px;
+    margin: 0px 20px;
+}
+
+.foot img {
+    height: 80;
+    width: 130px;
+    margin: 0px 20px;
+}
+
+.foot ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.foot a {
+    text-decoration: none;
+    color: white;
+}
+
+footer p {
+    color: rgb(141, 141, 141);
+    margin: 5px 0px;
+}
+
+footer i {
+    font-size: 30px;
+}
+
+.redessociales ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+}
+
+
+.redessociales li {
+    margin: 0px 25px;
+}
+
+.Enlaces ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+}
+
+.Enlaces li {
+    margin: 0px 25px;
+}
+
+.Menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+}
+
+.Menu li {
+    margin: 0px 25px;
+}
+
+form{
+    padding: 30px 10px;
+    flex: 0 1 20%;
+    margin: 5px 100px 0px 40px;
+    display: inline-table;
+    background-color: rgb(22,145,124);
+}
+
+.mapa{
+    border: 4px solid black;
+    padding: 0px 0px;
+    flex: 0 1 5%;
+    margin: 0px 10px 0px 30px;
+    
+}
+ form input{
+    background: #f7faf9;
+    height: 10px;
+    width: 200px;
+    padding: 20px 60px;
+    margin: 5px ;
+ }
+ form textarea{
+    background: #f8faf9;
+    height: 60px;
+    width: 200px;
+    padding: 20px 60px;
+    margin: 1px 70px;
+ }
+ form label{
+    text-align: center;
+    height: 60px;
+    width: 200px;
+    font-weight: bold;
+ }
+
+ form button{
+    
+    margin-top: 2% ;
+    background-color: black;
+    color: blanchedalmond;
+	border-radius:20px;	
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	padding:5px;
+	text-decoration:none;
+    margin-right:30px;
+    width: 130px;
+    
+ }
+
+
+
+
+
+
+ 

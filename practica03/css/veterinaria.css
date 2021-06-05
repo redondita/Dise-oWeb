@@ -1,0 +1,82 @@
+.grid{
+    margin: 0px auto;
+    max-width: 1000px;
+    min-height: 100vh;
+    display: grid;
+    grid-template-areas:"header  header header" " nav section aside " " footer footer footer" ;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 100px;
+}
+
+header{
+    grid-area: header;
+    }
+header h1 {
+    text-align: center;
+    font-size: 60px;
+}
+header h2 {
+    text-align: center;
+}
+img{
+    float: right;
+    width: 200px;
+    height: 160px;
+}
+.contenedor img{
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+nav{
+    grid-area: nav;
+    background-color: rgb(66, 63, 57);
+    background-color: black;
+    padding: 20px; 
+}
+nav input{
+    background-color: #f2f7f2; /* Green */
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+section{
+    grid-area: section;
+    
+}
+aside{
+    grid-area: aside;
+    background-color: rgba(34, 134, 126, 0.562);
+}
+
+footer{
+    grid-area: footer;
+    background-color: rgba(34, 134, 126, 0.562);
+}
+footer p{
+    text-align: center;
+}
+
+
+
+@media (min-width:600px) and (max-width:1000px){
+    .grid{
+        grid-template-columns: 30% 70%;
+        grid-template-rows: 105px 50px 1fr 100px;
+        grid-template-areas: "header header" "nav nav" "aside section" "footer footer";
+    }
+    
+}
+
+@media (min-width:1001px) {
+    .grid{
+        grid-template-columns: 200px 1fr 200px;
+        grid-template-rows: 200px 1fr 100px;
+        grid-template-areas: "header header header" "nav section aside" "footer footer footer";
+    }
+    
+}

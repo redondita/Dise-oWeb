@@ -1,0 +1,141 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.contenedor {
+    flex: 1 0 auto;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    
+}
+.contenedor h1{
+    color: red;
+}
+
+
+
+aside {
+    border: 1px solid black;
+    margin:  60px 30px 20px 30px;
+    flex: 0 1 20%;
+    background-color: rgb(243, 253, 250);
+    width: 200px;
+    
+}
+
+
+aside h4 {
+    margin: 5px 15px;
+}
+
+aside ul {
+    list-style: none;
+    padding: 6px;
+    margin: 0px 40px;
+    
+}
+
+aside a {
+    text-decoration: none;
+    color: rgb(146, 22, 22);
+    font-size: 14px;
+    
+}
+
+
+
+header {
+    flex: 0 0 auto;
+    background-color: rgb(161, 10, 10);
+}
+
+.head {
+    display: flex;
+    align-items: center;
+}
+.head h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.head img {
+    margin: 0px;
+    width: 185px;
+    height: 185px;
+    padding: 0px; 
+}
+
+.Informaciongeneral {
+    margin: 0px 40px;
+    padding: 20px; 
+}
+
+.Informaciongeneral h1{
+    margin: 5px 0px 0px 600px;
+    color: white;
+}
+
+.Informaciongeneral h2 {
+    margin: 5px 0px;
+    color: rgb(163, 2, 2);
+}
+
+
+header a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(218, 5, 5);
+
+}
+
+#inicioSesion {
+    float: right;
+    margin: 20px 25px 0px 0px;
+}footer {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    background-color: rgb(224, 3, 3);
+    flex: 0 0 auto;
+}
+
+.foot a {
+    text-decoration: none;
+    color: white;
+}
+
+footer p {
+    color: rgb(248, 248, 248);
+    margin: 5px 0px;
+}
+
+#caja2 {
+    width: 500px;
+    height: 200px;
+    float: right;
+}
+#caja4 {
+    background-color: rgb(248, 16, 16);
+    color: white;
+    width: 250px;
+    float: right;
+}
+#caja5 {
+    background-color: rgb(73, 68, 68);
+    color: white;
+    width: 1535px;
+    float: right;
+}
+
+
+
+
+
+
+ 
